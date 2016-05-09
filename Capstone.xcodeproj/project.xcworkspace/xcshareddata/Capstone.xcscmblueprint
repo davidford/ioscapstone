@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "D815F4B8D94C7D40154D024CE868B5BFCCEFE0FD",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "D815F4B8D94C7D40154D024CE868B5BFCCEFE0FD" : 0,
+    "31029F0DCD7F5C7F41B561B125E6A40F0A63760B" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "C6C4F332-03D8-4546-89A9-515F649F1DB6",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "D815F4B8D94C7D40154D024CE868B5BFCCEFE0FD" : "ios\/",
+    "31029F0DCD7F5C7F41B561B125E6A40F0A63760B" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Capstone",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "capstone\/Capstone.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "andrewford.ca:\/code\/scrapers.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "31029F0DCD7F5C7F41B561B125E6A40F0A63760B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/davidford\/ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D815F4B8D94C7D40154D024CE868B5BFCCEFE0FD"
+    }
+  ]
+}

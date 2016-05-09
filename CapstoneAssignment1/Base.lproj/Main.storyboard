@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Capstone" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Lme-RG-Iqg"/>
+                        <viewControllerLayoutGuide type="bottom" id="LvC-qz-Scv"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Sef-EW-DwU">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nsu-fi-gAg">
+                                <rect key="frame" x="20" y="0.0" width="560" height="600"/>
+                                <connections>
+                                    <segue destination="fvs-y1-BQ8" kind="embed" identifier="embedFaceTrackerViewController" id="aQI-VI-Sem"/>
+                                </connections>
+                            </containerView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="DwI-d7-80D">
+                                <rect key="frame" x="290" y="290" width="20" height="20"/>
+                            </activityIndicatorView>
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="nSU-Cz-XFs">
+                                <rect key="frame" x="27" y="562" width="600" height="30"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8BQ-kM-9FG">
+                                        <rect key="frame" x="0.0" y="0.0" width="120" height="30"/>
+                                        <size key="titleShadowOffset" width="2.2250738585072014e-308" height="0.0"/>
+                                        <state key="normal" title="Hat">
+                                            <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="onHatButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cF6-DE-I9S"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m4U-mm-bYG">
+                                        <rect key="frame" x="120" y="0.0" width="120" height="30"/>
+                                        <size key="titleShadowOffset" width="2.2250738585072014e-308" height="0.0"/>
+                                        <state key="normal" title="Groucho">
+                                            <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="onGrouchoButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1uB-bj-oLi"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KSB-bz-wK2">
+                                        <rect key="frame" x="240" y="0.0" width="120" height="30"/>
+                                        <state key="normal" title="Eyes"/>
+                                        <connections>
+                                            <action selector="onEyesButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Drl-At-OsB"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lhr-mY-bjA">
+                                        <rect key="frame" x="360" y="0.0" width="120" height="30"/>
+                                        <state key="normal" title="Nose"/>
+                                        <connections>
+                                            <action selector="onNoseButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Z1F-22-ozZ"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7qp-sW-SUa">
+                                        <rect key="frame" x="480" y="0.0" width="120" height="30"/>
+                                        <state key="normal" title="Mouth"/>
+                                        <connections>
+                                            <action selector="onMouthButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lbW-vB-Pyb"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="azv-m1-jUJ">
+                                <rect key="frame" x="27" y="14" width="91" height="30"/>
+                                <size key="titleShadowOffset" width="2.2250738585072014e-308" height="0.0"/>
+                                <state key="normal" title="Options">
+                                    <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="optionsButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="H4I-RT-TDz"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="LvC-qz-Scv" firstAttribute="top" secondItem="Nsu-fi-gAg" secondAttribute="bottom" id="9HJ-tn-Dbf"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Nsu-fi-gAg" secondAttribute="trailing" id="FFX-56-gEx"/>
+                            <constraint firstItem="LvC-qz-Scv" firstAttribute="top" secondItem="nSU-Cz-XFs" secondAttribute="bottom" id="Nch-d4-qqg"/>
+                            <constraint firstItem="nSU-Cz-XFs" firstAttribute="leading" secondItem="Sef-EW-DwU" secondAttribute="leading" id="asX-Q0-uFP"/>
+                            <constraint firstItem="Nsu-fi-gAg" firstAttribute="leading" secondItem="Sef-EW-DwU" secondAttribute="leadingMargin" id="plQ-0i-py6"/>
+                            <constraint firstItem="Nsu-fi-gAg" firstAttribute="top" secondItem="Sef-EW-DwU" secondAttribute="topMargin" id="vpp-nX-5rm"/>
+                            <constraint firstAttribute="trailing" secondItem="nSU-Cz-XFs" secondAttribute="trailing" id="wsV-xT-kG2"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="activityIndicator" destination="DwI-d7-80D" id="Szt-nx-jlI"/>
+                        <outlet property="faceTrackerContainerView" destination="Nsu-fi-gAg" id="lAD-zx-Iaa"/>
+                        <outlet property="optionsButton" destination="azv-m1-jUJ" id="QZA-ai-cnX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="265" y="294"/>
+        </scene>
+        <!--Face Tracker View Controller-->
+        <scene sceneID="uLU-Ua-DLP">
+            <objects>
+                <viewController id="fvs-y1-BQ8" customClass="FaceTrackerViewController" customModule="FaceTracker" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="K9H-uI-53V"/>
+                        <viewControllerLayoutGuide type="bottom" id="plD-mh-Btm"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="b7d-h0-OwH">
+                        <rect key="frame" x="0.0" y="0.0" width="560" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="view" destination="b7d-h0-OwH" id="0Jj-0U-wa4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bGL-jS-V3W" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="245" y="1068"/>
+        </scene>
+    </scenes>
+</document>

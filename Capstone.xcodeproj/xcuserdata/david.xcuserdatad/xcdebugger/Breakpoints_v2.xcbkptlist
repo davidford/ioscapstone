@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CapstoneAssignment1/ViewController.swift"
+            timestampString = "483850509.002633"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CapstoneAssignment1.ViewController.hatView.getter : __ObjC.UIImageView"
+                  moduleName = "CapstoneAssignment1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/david/Code/ios%20Capstone%20Project/Capstone%20-%20Assignment%201/CapstoneAssignment1/CapstoneAssignment1/ViewController.swift"
+                  timestampString = "483211112.168845"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "64">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CapstoneAssignment1.ViewController.hatView.setter : __ObjC.UIImageView"
+                  moduleName = "CapstoneAssignment1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/david/Code/ios%20Capstone%20Project/Capstone%20-%20Assignment%201/CapstoneAssignment1/CapstoneAssignment1/ViewController.swift"
+                  timestampString = "483211112.169081"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "128">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CapstoneAssignment1.ViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; CapstoneAssignment1.ViewController"
+                  moduleName = "CapstoneAssignment1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/david/Code/ios%20Capstone%20Project/Capstone%20-%20Assignment%201/CapstoneAssignment1/CapstoneAssignment1/ViewController.swift"
+                  timestampString = "483211112.169291"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CapstoneAssignment1.ViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;CapstoneAssignment1.ViewController&gt;"
+                  moduleName = "CapstoneAssignment1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/david/Code/ios%20Capstone%20Project/Capstone%20-%20Assignment%201/CapstoneAssignment1/CapstoneAssignment1/ViewController.swift"
+                  timestampString = "483211112.169475"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "20">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CapstoneAssignment1/ViewController.swift"
+            timestampString = "483850509.002633"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CapstoneAssignment1.ViewController.faceTrackerViewController.getter : weak Swift.Optional&lt;FaceTracker.FaceTrackerViewController&gt;"
+                  moduleName = "CapstoneAssignment1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/david/Code/ios%20Capstone%20Project/Capstone%20-%20Assignment%201/CapstoneAssignment1/CapstoneAssignment1/ViewController.swift"
+                  timestampString = "483211112.171274"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CapstoneAssignment1.ViewController.faceTrackerViewController.setter : weak Swift.Optional&lt;FaceTracker.FaceTrackerViewController&gt;"
+                  moduleName = "CapstoneAssignment1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/david/Code/ios%20Capstone%20Project/Capstone%20-%20Assignment%201/CapstoneAssignment1/CapstoneAssignment1/ViewController.swift"
+                  timestampString = "483211112.171476"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CapstoneAssignment1.ViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; CapstoneAssignment1.ViewController"
+                  moduleName = "CapstoneAssignment1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/david/Code/ios%20Capstone%20Project/Capstone%20-%20Assignment%201/CapstoneAssignment1/CapstoneAssignment1/ViewController.swift"
+                  timestampString = "483211112.171623"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "156">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CapstoneAssignment1.ViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;CapstoneAssignment1.ViewController&gt;"
+                  moduleName = "CapstoneAssignment1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/david/Code/ios%20Capstone%20Project/Capstone%20-%20Assignment%201/CapstoneAssignment1/CapstoneAssignment1/ViewController.swift"
+                  timestampString = "483211112.171711"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "104">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CapstoneAssignment1/ViewController.swift"
+            timestampString = "484382742.021981"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "75"
+            endingLineNumber = "75"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CapstoneAssignment1/ViewController.swift"
+            timestampString = "484463979.234279"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "302"
+            endingLineNumber = "302"
+            landmarkName = "faceTrackerDidUpdate(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
